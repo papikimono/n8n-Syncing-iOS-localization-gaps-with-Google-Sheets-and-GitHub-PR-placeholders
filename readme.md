@@ -96,17 +96,17 @@ This n8n workflow automatically identifies missing translations in `.strings` fi
 ## 🧪 Common Troubleshooting
 
 | **Issue**                | **Possible Cause**                                    | **Solution**                                |
-| ------------------------ | ----------------------------------------------------- | ------------------------------------------- | --------------------------------------- |
+| ------------------------ | ----------------------------------------------------- | ------------------------------------------- |
 | No source files found    | Glob pattern doesn’t match `Base.lproj` or `en.lproj` | Adjust `IOS_SOURCE_GLOB`                    |
 | Target file missing      | Locale folder doesn’t exist yet                       | Placeholder PR will create it               |
 | Parsing skips entries    | Non‑standard .strings format                          | Ensure proper `"key" = "value";` syntax     |
 | Sheet not updating       | Invalid `SHEET_ID` or insufficient permission         | Provide a valid ID or allow write access    |
 | PR not created           | `ENABLE_PR=false` or no keys missing                  | Enable PR creation and confirm missing gaps |
-| Slack/Email not received | Missing credentials/config                            | Configure Slack/SMTP and set recipients     | :contentReference[oaicite:11]{index=11} |
+| Slack/Email not received | Missing credentials/config                            | Configure Slack/SMTP and set recipients     |
 
 ---
 
 ## 💬 Need Help?
 
 Want to expand this for Android? Loop through 5+ locales at once? Replace GitHub with GitLab?  
-Contact the **WeblineIndia.n8n experts** with your repo and locale setup and we can tailor this workflow to your translation process! :contentReference[oaicite:12]{index=12}
+Contact the **WeblineIndia.n8n experts** with your repo and locale setup and we’ll help tailor it to your translation workflow!
