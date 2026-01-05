@@ -1,12 +1,12 @@
 # Syncing iOS Localization Gaps with Google Sheets and GitHub PR Placeholders
 
-This n8n workflow automatically identifies missing translations in `.strings` files across iOS localizations (e.g., `Base.lproj` vs `fr.lproj`) and generates a report in **Google Sheets**. Optionally, it creates a **GitHub Pull Request** to insert placeholder strings (`"__TODO_TRANSLATE__"`) so builds don’t fail. Supports **DRY_RUN** mode. :contentReference[oaicite:1]{index=1}
+This n8n workflow automatically identifies missing translations in `.strings` files across iOS localizations (e.g., `Base.lproj` vs `fr.lproj`) and generates a report in **Google Sheets**. Optionally, it creates a **GitHub Pull Request** to insert placeholder strings (`"__TODO_TRANSLATE__"`) so builds don’t fail. Supports **DRY_RUN** mode.
 
 ---
 
 ## 🚀 Quick Start – Setup Steps
 
-1. **Import the Workflow JSON** into your n8n instance. :contentReference[oaicite:2]{index=2}
+1. **Import the Workflow JSON** into your n8n instance.
 2. **Set Config Node values**, for example:
    ````json
    {
@@ -20,7 +20,7 @@ This n8n workflow automatically identifies missing translations in `.strings` fi
      "PLACEHOLDER_VALUE": "__TODO_TRANSLATE__",
      "BRANCH_TEMPLATE": "chore/l10n-gap-{{YYYYMMDD}}"
    }
-   ``` :contentReference[oaicite:3]{index=3}
+   ```
    ````
 
 ---
@@ -32,25 +32,25 @@ This n8n workflow automatically identifies missing translations in `.strings` fi
 - Compares translation keys between source and target to identify missing entries.
 - Updates or creates Google Sheet tabs (e.g., `fr`) with missing entries.
 - Optionally creates a **GitHub PR** with placeholder values so missing translations don’t break builds.
-- Supports **DRY_RUN** mode (sheet only, no PR). :contentReference[oaicite:4]{index=4}
+- Supports **DRY_RUN** mode (sheet only, no PR).
 
 ---
 
 ## 👥 Who’s It For
 
 - iOS development teams who want fast feedback on missing localizations.
-- Localization managers who want a shared sheet to assign work to translators. :contentReference[oaicite:5]{index=5}
+- Localization managers who want a shared sheet to assign work to translators.
 
 ---
 
 ## 🛠 Requirements
 
 | Tool                 | Purpose              | Notes                               |
-| -------------------- | -------------------- | ----------------------------------- | ------------------------------------- |
+| -------------------- | -------------------- | ----------------------------------- | --- |
 | **GitHub Repo**      | Webhook, API for PRs | Requires `repo` token or App access |
 | **Google Sheets**    | Sheet output         | Needs valid `SHEET_ID`              |
 | **Slack (optional)** | Notifications        | Requires `chat:write` scope         |
-| **SMTP (optional)**  | Email fallback       | Standard SMTP credentials           | :contentReference[oaicite:6]{index=6} |
+| **SMTP (optional)**  | Email fallback       | Standard SMTP credentials           |     |
 
 ---
 
@@ -60,7 +60,7 @@ This n8n workflow automatically identifies missing translations in `.strings` fi
 2. **Scan Repository Tree** — Finds `.strings` source and target files based on glob patterns.
 3. **Key Comparison** — Detects missing translation keys.
 4. **Update Sheets** — Adds missing entries to the appropriate sheet tab.
-5. **(Optional) Create GitHub PR** — Opens a pull request with placeholder translations. :contentReference[oaicite:7]{index=7}
+5. **(Optional) Create GitHub PR** — Opens a pull request with placeholder translations.
 
 ---
 
@@ -71,7 +71,7 @@ This n8n workflow automatically identifies missing translations in `.strings` fi
 - **Ignore Rules** — Add `IGNORE_KEY_PREFIXES_CSV` to skip internal or debug strings.
 - **Placeholder Value** — Change `PLACEHOLDER_VALUE` to something meaningful like `"@@@"`.
 - **Slack/Email** — Set `SLACK_CHANNEL` and `EMAIL_FALLBACK_TO_CSV`.
-- **DRY_RUN Mode** — Set to `true` to update Sheets only without PR creation. :contentReference[oaicite:8]{index=8}
+- **DRY_RUN Mode** — Set to `true` to update Sheets only without PR creation.
 
 ---
 
@@ -81,7 +81,7 @@ This n8n workflow automatically identifies missing translations in `.strings` fi
 - **Multiple languages** — Expand `TARGET_LANGS_CSV` and loop through tabs + placeholder commits per locale.
 - **`.stringsdict` handling** — Validate plural/format entries and open precise PRs.
 - **Translator DMs** — Map language → Slack handle/email to DM translators with their file/key counts.
-- **GitLab/Bitbucket variants** — Replace GitHub API calls with equivalents to open merge requests. :contentReference[oaicite:9]{index=9}
+- **GitLab/Bitbucket variants** — Replace GitHub API calls with equivalents to open merge requests.
 
 ---
 
@@ -89,7 +89,7 @@ This n8n workflow automatically identifies missing translations in `.strings` fi
 
 - Before a test build, ensure the locale (e.g., `fr`) has all keys present — placeholders keep the app compiling.
 - Weekly runs create sheets for translators and PRs with placeholders, avoiding last‑minute breakages.
-- When adding a new screen with new strings, the workflow flags missing keys across locales and pre‑fills them. :contentReference[oaicite:10]{index=10}
+- When adding a new screen with new strings, the workflow flags missing keys across locales and pre‑fills them.
 
 ---
 
